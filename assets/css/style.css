@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 24px;
+    background-color: #001346;
+    
+}
+
+.wrapper{
+    max-width: 1257px;
+    margin: auto;
+}
+
+@font-face{
+    font-family:lettercap;
+    src: url(../fonts/typographerwoodcut01-webfont.woff2);
+}
+
+.header{
+    padding: 20px;
+    color: #ffffff;
+    background-color: #1f2250;
+    text-align: center;
+}
+
+.header .bigtitle{
+    font-size: 50px;
+}
+
+.header p span{
+    font-family: Lettercap;
+    font-size: 4em;
+}
+
+.content{
+    background-color: #05143c;
+    color: #c6c9ff;
+    height: 1500px;
+    
+    font-size: 2em;
+    line-height: 4rem;
+ }
+
+ .content .first{
+    padding: 20px 10px 50px;
+    border: #1f2250 solid 5px;
+ }
+
+.content .first img{
+    float: right;
+}
+
+.content .second{
+    padding: 20px;
+    border: 5px solid #1f2250;
+}
+
+.content .second .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .second .imgC{
+    text-align: center;
+}
+
+.content .second span{
+    position: relative;
+    bottom: 49px;
+    right: 23px;
+    color: white;
+    cursor: no-drop;
+    user-select: none;
+}
