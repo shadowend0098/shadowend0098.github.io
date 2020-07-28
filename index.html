@@ -3,47 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fancy stuff</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" href="assets/img/x.gif" type="image/x-icon">
+    <title>RICKROLLED</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <div class="header">
-            <div class="bigtitle">
-                <p><span>W</span>elcome to this website</p>
-            </div>
-
-            <div class="info">
-                a website where i will put the memories or most important things that are related to website here.
-            </div>
+    <div class="container">
+        <div class="nice" id="ra">
+            <div>CONGRATULATIONS!</div> 
+            <div>YOU</div> 
+            <div>GOT</div> 
+            <div>RICKROLLED!</div>
         </div>
 
-        <div class="content">  
-            <div class="first">  
-                now i've put that image there SAMPLE TEXT<img src="assets/img/cant.jpg" alt="" width="350px" height="250px"> right there 
-               see image there? on the top right of the screen? i used float and  
-                of course you have to use clear:both after it not sure if i will use it that much. let's write more text so you'll see the text going under it
-                BLA BLA BLA BLA
-            </div>  
-            <div class="second">
-                <div class="container">
-                    <div>
-                        <div>HELLO FOOD?</div>
-                        <img src="assets/img/hello.png" alt="FOOD?" width="350px" height="200px">
-                    </div>
-                    <div>
-                        <div>food broke</div>
-                        <img src="assets/img/broke.png" alt="FOOD BROKE" height="200px">
-                    </div>
-                </div>
-                <div class="imgC">
-                    <img src="assets/img/UNDER.png" alt="understandable"> <span>Y</span>     
-                </div>         
-            </div>
+        <video width="80%" height="90%" id="shaps">
+            <source src="Rick Astley - Never Gonna Give You Up (Video).mp4" type="video/mp4">
+        </video>
+
+        <div class="nice" id="sa">
+            <div>CONGRATULATIONS!</div> 
+            <div>YOU</div> 
+            <div>GOT</div> 
+            <div>RICKROLLED!</div>
         </div>
     </div>
+    <button onclick="DOIT()" type="button" class="button" id="button"><img src="https://i.etsystatic.com/10919371/r/il/155a7d/1563938723/il_570xN.1563938723_1rmr.jpg" alt="monk"></button>
+    <script>
+        function DOIT() {
+            var vid = document.getElementById("shaps"); 
+            vid.play();
 
-</div>
+            
+            document.getElementById('sa').style.color = "rgba(255,0,0,1)";
+            document.getElementById('ra').style.color = "rgba(255,0,0,1)";
+            
+            document.getElementById('button').style.display = 'none';
+        }
+    </script>
 </body>
 </html>
